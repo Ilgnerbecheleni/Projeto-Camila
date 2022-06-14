@@ -396,7 +396,7 @@ footer li {
     .instructs {
         font-family: 'Oswald', sans-serif;
         background: rgb(92, 88, 61);
-        margin-top: 20px;
+        margin-top: 1em;
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
@@ -404,7 +404,7 @@ footer li {
         font-size: .75em
     }
     .card-instructs {
-        width: 450px;
+        width: 350px;
         height: 250px;
     }
     .instructs p {
