@@ -299,7 +299,7 @@ footer li {
     }
 }
 
-@media only screen and (max-width: 50em) {
+@media only screen and (max-width: 600px) {
     header {
         width: 100%;
         background: rgb(204, 194, 140);
@@ -325,7 +325,7 @@ footer li {
     }
     header ul li {
         display: inline-block;
-        margin-left: 10px;
+        margin-left: 8px;
     }
     header ul a {
         text-decoration: none;
