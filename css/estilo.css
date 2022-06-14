@@ -188,7 +188,7 @@ footer li {
     margin: 20px;
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width:68.75em) {
     header {
         width: 100%;
         background: rgb(204, 194, 140);
@@ -208,13 +208,13 @@ footer li {
     }
     .header-logo {
         margin: 0;
-        height: 150;
-        width: 200px;
+        height: 150px;
+        width: 100%;
         margin: 0;
     }
     header ul li {
         display: inline-block;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     header ul a {
         text-decoration: none;
@@ -234,7 +234,118 @@ footer li {
     }
     .img-card {
         width: 70%;
-        margin-left: 80px;
+    }
+    #sobre {
+        margin-top: 10px;
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgb(204, 194, 140);
+    }
+    #sobre .text-content {
+        width: 90%;
+    }
+    #sobre img {
+        width: 200px;
+        height: 200px;
+        /*  ajuste imagem  */
+        object-fit: cover;
+        margin-left: 30px;
+        border-radius: 50%;
+    }
+    #card {
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #slider {
+        width: 80%;
+        max-width: 350px;
+        height: 48vh;
+        max-height: 580px;
+        position: relative;
+    }
+    #slider img {
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /*  ajuste imagem  */
+        object-fit: cover;
+        /* animação  */
+        transition: opacity 1s ease-out;
+        border-radius: 15px;
+    }
+    .instructs {
+        font-family: 'Oswald', sans-serif;
+        background: rgb(92, 88, 61);
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        color: white;
+    }
+    .card-instructs {
+        width: 450px;
+        height: 250px;
+    }
+    .instructs p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 50em) {
+    header {
+        width: 100%;
+        background: rgb(204, 194, 140);
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1,
+    h2,
+    h3 {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 1em;
+    }
+    .header-logo {
+        margin: 0;
+        height: 150px;
+        width: 100%;
+        margin: 0;
+    }
+    header ul li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    header ul a {
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+    .works {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-card {
+        width: 70%;
+        margin-left: 150px;
     }
     #sobre {
         margin-top: 10px;
