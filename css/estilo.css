@@ -348,7 +348,7 @@ footer li {
     }
     .img-card {
         width: 70%;
-        margin-left: 80px;
+        margin-left: 75px;
     }
     #sobre {
         margin-top: 10px;
@@ -363,6 +363,7 @@ footer li {
     }
     #sobre .text-content {
         width: 90%;
+        font-size: 0.75em;
     }
     #sobre img {
         width: 200px;
