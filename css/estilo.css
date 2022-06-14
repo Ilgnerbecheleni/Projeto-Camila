@@ -84,7 +84,7 @@ header ul a {
     margin-top: 10px;
     position: relative;
     width: 100%;
-    height: auto;
+    height: 450px;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -98,7 +98,7 @@ header ul a {
     /*  ajuste imagem  */
     object-fit: cover;
     margin-left: 30px;
-    border-radius: 8px;
+    border-radius: 50%;
 }
 
 #sobre .text-content {
@@ -145,13 +145,45 @@ header ul a {
 }
 
 .instructs {
+    font-family: 'Oswald', sans-serif;
+    background: rgb(92, 88, 61);
     margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    color: white;
 }
 
 .card-instructs {
     width: 450px;
     height: 250px;
+}
+
+.instructs p {
+    font-size: 20px;
+}
+
+footer {
+    background: rgb(69, 73, 44);
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+footer ul {
+    margin: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+footer li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
 }
