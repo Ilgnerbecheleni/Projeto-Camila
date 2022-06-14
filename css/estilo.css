@@ -401,6 +401,7 @@ footer li {
         grid-template-columns: 1fr;
         justify-items: center;
         color: white;
+        font-size: .75em
     }
     .card-instructs {
         width: 450px;
